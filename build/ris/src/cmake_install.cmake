@@ -40,10 +40,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/jetson/catkin_ws/build/ris/src/hello_world/cmake_install.cmake")
-  include("/home/jetson/catkin_ws/build/ris/src/hello_server/cmake_install.cmake")
-  include("/home/jetson/catkin_ws/build/ris/src/hello_client/cmake_install.cmake")
-  include("/home/jetson/catkin_ws/build/ris/src/hello_publisher/cmake_install.cmake")
-  include("/home/jetson/catkin_ws/build/ris/src/hello_subscriber/cmake_install.cmake")
 
 endif()
 

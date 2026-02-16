@@ -675,58 +675,6 @@ hello_world/fast:
 .PHONY : hello_world/fast
 
 #=============================================================================
-# Target rules for targets named hello_server
-
-# Build rule for target.
-hello_server: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 hello_server
-.PHONY : hello_server
-
-# fast build rule for target.
-hello_server/fast:
-	$(MAKE) -f ris/src/hello_server/CMakeFiles/hello_server.dir/build.make ris/src/hello_server/CMakeFiles/hello_server.dir/build
-.PHONY : hello_server/fast
-
-#=============================================================================
-# Target rules for targets named hello_client
-
-# Build rule for target.
-hello_client: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 hello_client
-.PHONY : hello_client
-
-# fast build rule for target.
-hello_client/fast:
-	$(MAKE) -f ris/src/hello_client/CMakeFiles/hello_client.dir/build.make ris/src/hello_client/CMakeFiles/hello_client.dir/build
-.PHONY : hello_client/fast
-
-#=============================================================================
-# Target rules for targets named hello_publisher
-
-# Build rule for target.
-hello_publisher: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 hello_publisher
-.PHONY : hello_publisher
-
-# fast build rule for target.
-hello_publisher/fast:
-	$(MAKE) -f ris/src/hello_publisher/CMakeFiles/hello_publisher.dir/build.make ris/src/hello_publisher/CMakeFiles/hello_publisher.dir/build
-.PHONY : hello_publisher/fast
-
-#=============================================================================
-# Target rules for targets named hello_subscriber
-
-# Build rule for target.
-hello_subscriber: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 hello_subscriber
-.PHONY : hello_subscriber
-
-# fast build rule for target.
-hello_subscriber/fast:
-	$(MAKE) -f ris/src/hello_subscriber/CMakeFiles/hello_subscriber.dir/build.make ris/src/hello_subscriber/CMakeFiles/hello_subscriber.dir/build
-.PHONY : hello_subscriber/fast
-
-#=============================================================================
 # Target rules for targets named sensor_msgs_generate_messages_py
 
 # Build rule for target.
@@ -1324,10 +1272,6 @@ help:
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... rosgraph_msgs_generate_messages_eus"
 	@echo "... hello_world"
-	@echo "... hello_server"
-	@echo "... hello_client"
-	@echo "... hello_publisher"
-	@echo "... hello_subscriber"
 	@echo "... sensor_msgs_generate_messages_py"
 	@echo "... sensor_msgs_generate_messages_nodejs"
 	@echo "... geometry_msgs_generate_messages_cpp"
