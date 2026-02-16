@@ -1,2 +1,2 @@
-jetracer_ros:ris:ris_msgs
+jetbot_pro:jetracer_ros:my_camera_utils:ris:ris_msgs
 -DCATKIN_DEVEL_PREFIX=/home/jetson/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/jetson/catkin_ws/install -G Unix Makefiles

@@ -3,5 +3,10 @@ devel/
 logs/
 .catkin_workspace
 install/
+.catkin_tools/
 **/__pycache__/
 *.pyc
+.idea/
+.vscode/
+.DS_Store
+*.user

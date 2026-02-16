@@ -132,7 +132,9 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/jetson/catkin_ws/build/gtest/cmake_install.cmake")
   include("/home/jetson/catkin_ws/build/ris_msgs/cmake_install.cmake")
+  include("/home/jetson/catkin_ws/build/jetbot_pro/cmake_install.cmake")
   include("/home/jetson/catkin_ws/build/ris/cmake_install.cmake")
+  include("/home/jetson/catkin_ws/build/my_camera_utils/cmake_install.cmake")
   include("/home/jetson/catkin_ws/build/jetracer_ros/cmake_install.cmake")
 
 endif()
