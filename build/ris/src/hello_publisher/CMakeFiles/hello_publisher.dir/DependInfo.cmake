@@ -17,12 +17,11 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "ris/src/hello_publisher"
-  "/home/jetson/catkin_ws/src/ris/src/hello_publisher"
-  "/home/jetson/catkin_ws/src/ris/src/hello_publisher/SYSTEM"
   "/home/jetson/catkin_ws/devel/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
+  "/home/jetson/catkin_ws/src/ris/src/hello_publisher"
+  "/home/jetson/catkin_ws/src/ris/src/hello_publisher/SYSTEM"
   )
 
 # Targets to which this target links.

@@ -49,8 +49,6 @@ ros/message_operations.h
 /home/jetson/catkin_ws/src/ris/src/hello_client/main.cpp
 ros/ros.h
 -
-ros/console.h
--
 ris_msgs/PingPong.h
 -
 thread
